@@ -9,7 +9,7 @@
 body {
     font-family: Alegreya SC, serif;
     font-weight: 400;
-    color: #1C2541;
+    color: #0F60B6;
 }
 
 /* headings */
@@ -17,7 +17,8 @@ body {
 h1, h2 {
     font-family: Alegreya SC, serif;
     font-weight: 600;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    color: #0F60B6;
 }
 
 #top-left-heading {
@@ -31,7 +32,7 @@ h1, h2 {
 #menu {
     font-size: 20px;
     letter-spacing: 1px;
-    color: #1C2541;
+    color: #0F60B6;
     
 }
 
@@ -51,6 +52,20 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #1C2541
+    border-bottom: 1px solid #0F60B6;
 }
 
+/* hero image */
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/lady-justice.jpg') no-repeat center center;
+}
