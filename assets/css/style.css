@@ -10,4 +10,18 @@ body {
     font-family: Alegreya SC, serif;
     font-weight: 400;
 }
+
+/* headings */
+
+h1, h2 {
+    font-family: Alegreya SC, serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#top-left-heading {
+    float: left;
+    font-size: 50px;
+    margin-left: 30px;
+}
     
