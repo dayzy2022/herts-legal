@@ -21,6 +21,7 @@ h1, h2 {
     color: #0F60B6;
 }
 
+
 #top-left-heading {
     float: left;
     font-size: 50px;
@@ -68,4 +69,50 @@ h1, h2 {
     height: 500px;
     width: 100%;
     background: url('../images/lady-justice.jpg') no-repeat center center;
+}
+
+/* About Us */
+
+.about-heading-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px o 10px 0;
+    padding: 10px;
+    background-color: #C1E0F7;
+}
+
+.about-p-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Services */
+
+.services-heading-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px o 10px 0;
+    padding: 10px;
+    background-color: #C1E0F7;
+}
+
+/* Team */
+
+.team-heading-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px o 10px 0;
+    padding: 10px;
+    background-color: #C1E0F7;
+}
+
+/* Contact */
+
+.contact-heading-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px o 10px 0;
+    padding: 10px;
+    background-color: #C1E0F7;
 }
