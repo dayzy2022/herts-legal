@@ -97,6 +97,12 @@ h1, h2 {
     background-color: #C1E0F7;
 }
 
+.criminal-container {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
 /* Team */
 
 .team-heading-container {
