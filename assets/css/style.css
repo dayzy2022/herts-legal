@@ -191,58 +191,33 @@ h1, h2 {
     background-color: #C1E0F7;
 }
 
+.team-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
 #team-member1 > img {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
 }
 
-.team-member1-container {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    float: left;
-}
-
 #team-member2 > img {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
- }
-
-.team-member2-container {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    float: right;
-
-}
-
-.team-member3-container {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    float: left;
 }
 
 #team-member3 > img {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
- }
+}
 
- #team-member4 > img {
+#team-member4 > img {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
- }
-
- .team-member4-container {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    float: right;
-
 }
 
 /* Contact */
