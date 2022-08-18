@@ -193,28 +193,39 @@ h1, h2 {
 
 .team-flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 351px;
+   
 }
 
-#team-member1 > img {
+.team-member1-container {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
 }
 
-#team-member2 > img {
+.team-member1-p {
+    width: 300px;
+}
+
+.team-member2-container {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
 }
 
-#team-member3 > img {
+.team-member2-p {
+    width: 300px;
+}
+
+.team-member3-container {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
 }
 
-#team-member4 > img {
+.team-member4-container {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
