@@ -243,32 +243,43 @@ h1, h2 {
 
 .contact-form-section-container {
     display: flex;
-    height: 50vh;
     justify-content: center;
+    height: 50vh;
     padding: 10px;
 }
 
 .customer-details {
+    display: flex;
+    justify-content: center;
     max-width: 600px;
     width: 100%;
     background: #C1E0F7;
     padding: 25px 30px;
+    border: 1px solid #0F60B6;
     border-radius: 5px;
 }
 
 .customer-details form .input-box {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     padding: 10px;
 }
 
-form .input-box {
-    width: 50%;
+.customer-details .input-box .details {
+    display: flex;
+    justify-content: center;
+    font-family: Lora, serif;
+    font-weight: 600;
+    margin-bottom: 3px;
 }
 
 .customer-details .input-box input {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #0F60B6;
+    border-radius: 5px;
     height: 25px;
-    width: 100%;
+    width: 50%;
+    padding-left: 5px;
 }
