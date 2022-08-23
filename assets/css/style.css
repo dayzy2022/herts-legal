@@ -15,6 +15,8 @@ body {
 /* headings */
 
 header {
+display: flex;
+justify-content: space-between;
 position: fixed;
 width: 100%;
 z-index: 2;
@@ -202,7 +204,7 @@ h1, h2 {
 
 .team-flex-container {
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    flex-wrap: wrap;
    
 }
@@ -214,7 +216,12 @@ h1, h2 {
 }
 
 .team-member1-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 300px;
+    padding: 20px;
 }
 
 .team-member2-container {
@@ -224,7 +231,12 @@ h1, h2 {
 }
 
 .team-member2-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 300px;
+    padding: 20px;
 }
 
 .team-member3-container {
@@ -233,10 +245,28 @@ h1, h2 {
     border-radius: 50%; 
 }
 
+.team-member3-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+}
+
 .team-member4-container {
     margin: 10px;
     border: solid 2px #C1E0F7;
     border-radius: 50%; 
+}
+
+.team-member4-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
 }
 
 /* Contact */
@@ -325,23 +355,11 @@ input[type=submit] {
 
 /* Media queries */
 
+/* For larger to medium screens size from 1200px wide and down */
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    .top-left-heading {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-    }
-
-    #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-    } 
+  
 }
 
 
